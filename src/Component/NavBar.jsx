@@ -24,7 +24,7 @@ const NavBar = () => {
 
             <div className=" md:flex h-12 mr-16 flex justify-center items-center gap-8">
                 <a href="/" className="text-base font-medium text-white">Book Demo</a>
-                <a href="/" className="text-base font-medium text-white">Login</a>
+                <a href="/Login" className="text-base font-medium text-white">Login</a>
                 <button className="text-base font-bold text-white bg-blue-500 p-2.5 rounded-2xl" type="submit">Try it free</button>
             </div>
 
@@ -52,7 +52,7 @@ const NavBar = () => {
                     <a href="/AboutUs" className="text-lg font-medium text-white" onClick={toggleMenu}>About Us</a>
                     <a href="//Resources" className="text-lg font-medium text-white" onClick={toggleMenu}>Resources</a>
                     <a href="/" className="text-lg font-medium text-white" onClick={toggleMenu}>Book Demo</a>
-                    <a href="/" className="text-lg font-medium text-white" onClick={toggleMenu}>Login</a>
+                    <a href="/Login" className="text-lg font-medium text-white" onClick={toggleMenu}>Login</a>
                     <button className="text-lg font-bold text-white bg-blue-500 p-2.5 rounded-2xl" onClick={toggleMenu}>Try it free</button>
                 </div>
             </div>
